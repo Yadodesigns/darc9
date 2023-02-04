@@ -1,0 +1,204 @@
+.lort{
+    display: none !important;
+}
+.prett{
+    display: none !important;
+}
+#mobile{
+    display: none;
+}
+.splash-container .splash-c{
+    display: none !important;
+}
+@media (max-width:1000px){
+.splash{
+    height: 100% !important;
+}
+
+}
+@media (max-width:1500px) {
+
+    #disappear{
+        display: none;
+    }
+    .portfolio-container .top, .portfolio-container .bottom{
+        flex-direction: column !important;
+    }
+    #mobile{
+        display: block !important;
+    }
+    
+}
+@media(min-width:1401px){
+    .island{
+        padding-top: 1rem;
+    }
+}
+@media(max-width:1400px){
+    .main-island{
+        display: none !important;
+    }
+    .row-container{
+        flex-direction: column !important;
+    }
+    .lort{
+        flex-direction: column !important;
+        display: flex !important;
+    }
+    .lort #next{
+        flex-direction: column !important;
+        text-align: center;
+        justify-content: center !important;
+        align-items: center !important;
+        gap: 0 !important;
+    }
+    .port{
+        display: none !important;
+    }
+    .main-container{
+        padding:0 !important;
+        contain: content;
+    }
+    .splash-container .splash-a h1{
+        font-size: 350%;
+    }
+    .splash-container{
+        text-align: center;
+        justify-content: center !important;
+    }
+    .splash-container .splash-a{
+        display: none !important;
+    }
+    .splash-container .splash-c{
+        display: block !important;
+    }
+    #mobile{
+        transform: scale(0.8);
+    }
+    .about-container{
+        padding: 0 !important;
+    }
+    .number-section .row-container #box{
+        width: 80%;
+    }
+    .portfolio-container img{
+        width: 80% !important;
+    }
+    .founder-container {
+        align-items: center !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        contain: content;
+        height: 100% !important;
+        align-items: center;
+    }
+    .founder-container h3{
+        font-size: 110% !important;
+    }
+    .founder-container img{
+        width: 70% !important;
+    }
+    .founder-container h1{
+        font-size: 200% !important;
+    }
+    .services-container #next h1{
+        font-size: 130% !important;
+    }
+    .services-container #next p{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .prett{
+        display: flex !important;
+        font-size: 100%;
+    }
+    .prett h2{
+        background: linear-gradient(180deg, rgba(121,121,121,1) 35%, rgba(35,35,35,1) 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-weight: 400;
+    }
+    .splash-container{
+        flex-direction: column !important;
+    }
+    .lort{
+        gap: 5rem !important;
+    }
+}
+
+/*ultra wide*/
+@media (min-width:2400px){
+.splash-container{
+    justify-content: center !important;
+    gap: 10rem;
+}
+.splash{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.splash-container iframe{
+    width: 1300px !important;
+}
+.about-container iframe{
+    width: 1400px;
+}
+.founder-container .card img{
+    width: 50% ;
+}
+
+
+
+}
+
+@media (max-width:1000px){
+    .background-img{
+        display: block !important;
+        z-index: 3;
+        position: absolute;
+        top: 0.5%;
+    }
+    .background-img img{
+        opacity: 0.02;
+        height: 700px;
+        width: 100%;
+    }
+    .splash-container{
+        height: 100vh !important;
+    }
+    .current-container{
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        padding-top: 10rem !important;
+        padding-bottom: 15rem !important;
+
+    }
+    .card-box{
+        margin-left: 4rem !important;
+        margin-right: 4rem !important;
+    }
+    .companies-container #first{
+        padding-bottom: 5rem;
+    }
+    .companies-container h1{
+        font-size: 250% !important;
+    }
+
+
+}
+@media (max-width:1400px){
+    .founder-container .inner-container{
+        flex-direction: column !important;
+        gap: 5rem;
+    }
+    .companies-container .inner-comp{
+        flex-direction: column;
+        padding-left: 0 !important;
+    }
+}
+.background-img{
+    display: none;
+    width: 100%;
+}
+
